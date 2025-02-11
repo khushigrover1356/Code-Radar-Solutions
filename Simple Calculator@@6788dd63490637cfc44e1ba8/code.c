@@ -1,7 +1,8 @@
 # include<stdio.h>
 int main(){
-    int a,b,c;char ch;
-    scanf("%d%d%c",&a,&b,&ch);
+    int a,b,c;
+    char ch;
+    scanf("%d %d %c",&a,&b,&ch);
     if (ch == '+'){
         c = a+b;
         printf("%d",c);
@@ -19,9 +20,12 @@ int main(){
             c = a/b;
             printf("%d",c);
         }
-     }
     else{
         printf("error");
+    }
+    else{
+        printf("error");
+    }
     }
     return 0;
 }
