@@ -1,18 +1,25 @@
 # include<stdio.h>
 int main(){
-    int a,b;char c;
-    scanf("%d%d%c",&a,&b,&c);
-    if (c == "+"){
-        printf(a+b);
+    int a,b,c;char ch;
+    scanf("%d%d%c",&a,&b,&ch);
+    if (ch == '+'){
+        c = a+b;
+        printf("%d",c);
     }
-     else if (c == "-"){
-        printf(a-b);
+     else if (ch =='-'){
+        c = a-b;
+        printf("%d",c);
     }
-     else if (c == "*"){
-        printf(a*b);
+     else if (ch == '*'){
+        c = a*b;
+        printf("%d",c);
     }
-     else if (c == "/"){
-        printf(a/b);
+     else if (ch == '/'){
+        if (b!=0){
+            c = a/b;
+            printf("%d",c);
+        }
+        
     }
     else{
         printf("Error");
