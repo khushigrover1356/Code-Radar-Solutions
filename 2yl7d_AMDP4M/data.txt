@@ -1,1 +1,1 @@
-[{"index":9,"id":"67b0eb4a17930522cbe25a17","title":"Invalid special symbol in C","correctAnswer":"$","selectedOption":"+-","isCorrect":false,"type":"MCQ"}]
+[{"index":9,"id":"67b0eb4a17930522cbe25a17","title":"Invalid special symbol in C","correctAnswer":"$","selectedOption":"+-","isCorrect":false,"type":"MCQ"},{"index":14,"id":"67b0eb4a17930522cbe25a1b","title":"Incorrect identifier name","correctAnswer":"34_","selectedOption":"34_","isCorrect":true,"type":"MCQ"}]
