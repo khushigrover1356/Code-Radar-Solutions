@@ -7,13 +7,13 @@ int main(){
         scanf("%d", &arr[i]);
 
     }
-    int max= -100000000;
+    int max= 100000000;
     for(int i=0; i<n; i++){
         if(arr[i]%2==0 && arr[i]>max){
         max=arr[i];
         }
     }
-    if (max!=-100000000){
+    if (max!=100000000){
         printf("%d",max);
     }
     else{
