@@ -1,5 +1,5 @@
 #include<stdio.h>
-in main(){
+int main(){
     int n,i,j;
     scanf("%d",&n);
     int arr[n];
