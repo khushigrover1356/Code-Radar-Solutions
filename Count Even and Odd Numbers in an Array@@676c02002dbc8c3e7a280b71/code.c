@@ -17,7 +17,7 @@ for(int i=1; i<n; i++){
     }
 }
     printf("%d",even);
-    printf("%d",odd);
+    printf(" %d",odd);
 
 return 0;
 }
