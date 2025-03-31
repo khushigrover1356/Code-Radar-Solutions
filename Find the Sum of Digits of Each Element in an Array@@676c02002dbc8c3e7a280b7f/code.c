@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-int sum(int n,nt arr[]){
+int sum(int n,int arr[]){
     for (int i=0;i<n;i++){
         int num = abs(arr[i]);
         int r;
