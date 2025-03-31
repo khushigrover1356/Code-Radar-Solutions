@@ -6,7 +6,7 @@ int main(){
 }
 for(int i=0; i<n; i++){
     scanf("%d",&arr[i]);
-}
+
 for(int i=1; i<n; i++){
     if(arr[i]%2 == 0){
         even += arr[i];
@@ -16,4 +16,6 @@ for(int i=1; i<n; i++){
     }
     printf("%d",&even);
     printf("%d",&odd);
+}
+return 0;
 }
