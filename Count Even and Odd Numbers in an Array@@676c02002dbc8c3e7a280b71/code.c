@@ -15,8 +15,8 @@ for(int i=1; i<n; i++){
     else {
         odd +=1;
     }
-    printf("%d",&even);
-    printf("%d",&odd);
+    printf("%d",even);
+    printf("%d",odd);
 }
 return 0;
 }
